@@ -9,7 +9,7 @@ function setup(){
 function draw(){
   background(160, 192, 255);
  count = (count + increment) % cycle;
-  if (keyIsPressed) {
+  if (mouseIsPressed) {
   increment = 2;
 } else {
  increment = 1;
